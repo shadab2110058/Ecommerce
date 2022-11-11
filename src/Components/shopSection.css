@@ -1,0 +1,151 @@
+.wrap--shopSection{
+    background-color: var(--color-textAlt);
+    padding-bottom: 3rem;
+    color: black;
+}
+
+.wrap--shop{
+    border: 2px solid var(--color-textAlt);
+    margin: 4rem 13rem;
+    padding-bottom: 10vh;
+}
+.shopSection{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2.4rem;
+}
+
+.wrap--shopSection h2{
+    margin-top: 4rem;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+/* Carausel */
+.carouselHeading{
+    text-align: center;
+}
+
+.wrap--carousel{
+    max-width: 1200;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* -----------------------------Request  Box */
+
+.wrap--request{
+    position: fixed;
+    top: 10vh;
+    left: 5vw;
+    background-color: #F7F8FA;
+    width: 90%;
+    border: var(--color-header) 2px solid;
+    margin: auto;
+    border-radius: 15px;
+    z-index: 1000;
+}
+
+/* Invisble Request Box */
+.requestInvisible{
+    display: none;
+}
+/* Request Button */
+/* .wrap--requestBtn button{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    
+} */
+
+/* Request box */
+.requestBox{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* heading */
+.requestHeading{
+    text-align: center;
+    margin-bottom: 10vh;
+    font-weight: 800;
+}
+
+/* Input field  */
+.wrap--requestInput{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+/* Request Box */
+.requestInput{
+    background-color: var(--color-textAlt);
+    width: 95%;
+    /* margin: auto; */
+    margin-bottom: 4vh;
+    margin-top: 1vh;
+}
+
+/* Submit Buttons */
+
+.requestBoxBtn{
+    margin: 10vh auto ;
+    display: flex;
+}
+.requestBtn{
+    outline: none;
+    border: none;
+    background-color: var(--color-header);
+    min-width: 10vw;
+    margin: 1rem;
+}
+.requestBtn:hover{
+    background-color: var(--color-footer);
+}
+.requestBtn:active{
+    background-color: var(--color-textAlt);
+    color: var(--color-header);
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .shopSection{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media screen and (max-width:950px) {
+    .shopSection{
+        margin: auto 3rem;
+        /* grid-template-columns: auto auto auto; */
+    }
+    .wrap--shop{
+        margin: 4rem auto;
+    }
+    .wrap--shopSection h2{
+        margin-left: 3rem;
+    }
+    /* carousel */
+    .wrap--carousel{
+        margin: auto auto auto -2rem;
+    }
+}
+@media screen and (max-width:767px) {
+    .shopSection{
+        grid-template-columns: auto auto;
+    }
+    .requestBoxBtn{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:499px) {
+    .shopSection{
+        grid-template-columns: auto;
+    }
+}

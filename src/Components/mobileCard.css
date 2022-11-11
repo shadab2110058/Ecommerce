@@ -1,0 +1,97 @@
+.wrap--mobileCard{
+    width: 80%;
+    min-width: 200px;
+    margin: auto;
+    background-color: var(--color-text);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding-bottom: 1rem;
+}
+
+.mobileImage{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 100%;
+}
+
+.mobileName{
+    font-weight: 600;
+}
+.mobileAbout{
+    padding: 0 2rem;
+}
+.mobileAboutDetails , .mobileAboutReviews{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobileTiming{
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.discountTag{
+    position: relative;
+    top: -23.8rem;
+    left: -5rem;
+    background-color: var(--color-accent);
+    width: fit-content  ;
+    padding: 1rem;
+    border-top-left-radius: 4px;
+}
+
+/* Quantity Box */
+.dishAmount{
+    display: flex;
+    padding: 0;
+    
+    border-radius: 5px;
+}
+
+.dishAmountBorder{
+    border: 0.00001px solid var(--color-accent);
+
+}
+.dishAmount > *{
+    padding: 0;
+    color:  black;
+    border: none;
+
+}
+.dishAmount button{
+    /* background-color: var(--color-accent); */
+    overflow: hidden;
+    padding: 0 1rem;
+    font-size: large;
+    /* color: var(--color-text); */
+    /* border-radius: 0; */
+
+    border-radius: 4px;
+    margin: 0;
+}
+button{
+    color: rgb(255,164,28);
+}
+.dishAmount button:hover{
+    background-color: #f3900f;
+}
+.dishAmount img{
+    margin: 0;
+    padding: 0;
+}
+
+.removeDish , .qtyDish{
+    visibility: hidden;
+    /* padding: 0.5rem; */
+}
+
+.qtyDishAppearance{
+    
+    padding:0 1rem;
+}
+
+
