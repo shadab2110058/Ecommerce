@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Ecommerce/static/css/main.c8f8bd35.css",
+    "main.js": "/Ecommerce/static/js/main.7fef7429.js",
+    "static/media/OPPO A16.jpg": "/Ecommerce/static/media/OPPO A16.31f6b3049ae40c2fbc6f.jpg",
+    "static/media/mobileDelivery.webp": "/Ecommerce/static/media/mobileDelivery.2d751753a589c64c1e33.webp",
+    "static/media/oppo2.jpg": "/Ecommerce/static/media/oppo2.9aec7d61e47056ebe6b0.jpg",
+    "static/media/OPPO A77s.jpg": "/Ecommerce/static/media/OPPO A77s.ca6adbd66445c2514f78.jpg",
+    "static/media/OPPO A16e.jpg": "/Ecommerce/static/media/OPPO A16e.cdabffdd0d39417cda0e.jpg",
+    "static/media/oppo4.jpg": "/Ecommerce/static/media/oppo4.54b0f48d236e72349f29.jpg",
+    "static/media/signMobile.png": "/Ecommerce/static/media/signMobile.c9f117fe50f53e685b01.png",
+    "static/media/oppo3.jpg": "/Ecommerce/static/media/oppo3.d0626d6949be8f768739.jpg",
+    "index.html": "/Ecommerce/index.html",
+    "main.c8f8bd35.css.map": "/Ecommerce/static/css/main.c8f8bd35.css.map",
+    "main.7fef7429.js.map": "/Ecommerce/static/js/main.7fef7429.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8f8bd35.css",
+    "static/js/main.7fef7429.js"
+  ]
+}
